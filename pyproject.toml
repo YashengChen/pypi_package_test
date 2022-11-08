@@ -1,0 +1,22 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[project]
+name = 'example_package_rockchen'
+version = '0.0.2'
+authours = [
+    { name='rock chen', email='arshengc@gmail.com' },
+]
+description = 'a small example package'
+readme = 'README.md'
+requires-python = ">=3.7"
+classisfiers = [
+    'Programming Language :: Python :: 3',
+    'license :: OSI Approved :: MIT License',
+    'Operating System :: Unix Independent',
+]
+
+[project.urls]
+'Homepage' = 'https://github.com/pypa/sampleproject'
+'Bug Tracker' = 'https://github.com/pypa/sampleproject/issues'
